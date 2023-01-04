@@ -1,0 +1,7 @@
+source_language: en
+target_languages: ["cs", "da", "de", "el", "es", "fi", "fr", "hu", "id", "it", "ja", "ko", "nb", "nl", "pl", "pt-BR", "ru", "sv", "th", "tr", "vi", "zh-CN", "zh-TW"]
+components:
+  - name: 'default'
+    audience: [merchant, buyer]
+    paths:
+      - rails/locale/{{language}}.yml
