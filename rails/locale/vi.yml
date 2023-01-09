@@ -19,6 +19,7 @@ vi:
         one: dưới %{count} giây
         other: dưới %{count} giây
       less_than_x_minutes:
+        one: dưới %{count} phút
         other: dưới %{count} phút
       over_x_years:
         one: trên %{count} năm

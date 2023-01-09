@@ -29,7 +29,7 @@ ru:
         many: менее %{count} сек
         other: менее %{count} сек
       less_than_x_minutes:
-        one: меньше %{count} минуты
+        one: менее %{count} мин.
         few: менее %{count} мин
         many: менее %{count} мин
         other: менее %{count} мин

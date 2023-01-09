@@ -19,6 +19,7 @@ zh-CN:
         one: 不足 %{count} 秒
         other: 不足 %{count} 秒
       less_than_x_minutes:
+        one: 不足 %{count} 分钟
         other: 不足 %{count} 分钟
       over_x_years:
         one: 超过 %{count} 年

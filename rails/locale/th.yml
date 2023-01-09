@@ -19,6 +19,7 @@ th:
         one: น้อยกว่า %{count} วินาที
         other: น้อยกว่า %{count} วินาที
       less_than_x_minutes:
+        one: น้อยกว่า %{count} นาที
         other: น้อยกว่า %{count} นาที
       over_x_years:
         one: เกิน %{count} ปี

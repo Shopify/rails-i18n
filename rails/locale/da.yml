@@ -19,7 +19,7 @@ da:
         one: mindre end %{count} sekund
         other: mindre end %{count} sekunder
       less_than_x_minutes:
-        one: mindre end et minut
+        one: mindre end %{count} minut
         other: mindre end %{count} minutter
       over_x_years:
         one: over %{count} år

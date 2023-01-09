@@ -19,6 +19,7 @@ ja:
         one: "%{count}秒未満"
         other: "%{count}秒未満"
       less_than_x_minutes:
+        one: "%{count}分未満"
         other: "%{count}分未満"
       over_x_years:
         one: "%{count}年以上"
