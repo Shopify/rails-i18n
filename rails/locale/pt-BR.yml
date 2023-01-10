@@ -1,223 +1,73 @@
 ---
 pt-BR:
-  activerecord:
-    errors:
-      messages:
-        record_invalid: 'A validação falhou: %{errors}'
-        restrict_dependent_destroy:
-          has_one: Não é possível excluir o registro pois existe um %{record} dependente
-          has_many: Não é possível excluir o registro pois existem %{record} dependentes
-  date:
-    abbr_day_names:
-    - dom
-    - seg
-    - ter
-    - qua
-    - qui
-    - sex
-    - sáb
-    abbr_month_names:
-    - 
-    - jan
-    - fev
-    - mar
-    - abr
-    - mai
-    - jun
-    - jul
-    - ago
-    - set
-    - out
-    - nov
-    - dez
-    day_names:
-    - domingo
-    - segunda-feira
-    - terça-feira
-    - quarta-feira
-    - quinta-feira
-    - sexta-feira
-    - sábado
-    formats:
-      default: "%d/%m/%Y"
-      long: "%d de %B de %Y"
-      short: "%d de %B"
-    month_names:
-    - 
-    - janeiro
-    - fevereiro
-    - março
-    - abril
-    - maio
-    - junho
-    - julho
-    - agosto
-    - setembro
-    - outubro
-    - novembro
-    - dezembro
-    order:
-    - :day
-    - :month
-    - :year
   datetime:
     distance_in_words:
       about_x_hours:
-        one: aproximadamente %{count} hora
-        other: aproximadamente %{count} horas
+        one: cerca de %{count} hora
+        other: cerca de %{count} horas
+        many: cerca de %{count} horas
       about_x_months:
-        one: aproximadamente %{count} mês
-        other: aproximadamente %{count} meses
+        one: cerca de %{count} mês
+        other: cerca de %{count} meses
+        many: cerca de %{count} meses
       about_x_years:
-        one: aproximadamente %{count} ano
-        other: aproximadamente %{count} anos
+        one: cerca de %{count} ano
+        other: cerca de %{count} anos
+        many: cerca de %{count} anos
       almost_x_years:
         one: quase %{count} ano
         other: quase %{count} anos
+        many: quase %{count} anos
       half_a_minute: meio minuto
       less_than_x_seconds:
         one: menos de %{count} segundo
         other: menos de %{count} segundos
+        many: menos de %{count} segundos
       less_than_x_minutes:
-        one: menos de um minuto
+        one: menos de %{count} minuto
         other: menos de %{count} minutos
+        many: menos de %{count} minutos
       over_x_years:
         one: mais de %{count} ano
         other: mais de %{count} anos
+        many: mais de %{count} anos
       x_seconds:
         one: "%{count} segundo"
         other: "%{count} segundos"
+        many: "%{count} segundos"
       x_minutes:
         one: "%{count} minuto"
         other: "%{count} minutos"
+        many: "%{count} minutos"
       x_days:
         one: "%{count} dia"
         other: "%{count} dias"
+        many: "%{count} dias"
       x_months:
         one: "%{count} mês"
         other: "%{count} meses"
+        many: "%{count} meses"
       x_years:
         one: "%{count} ano"
         other: "%{count} anos"
-    prompts:
-      second: Segundo
-      minute: Minuto
-      hour: Hora
-      day: Dia
-      month: Mês
-      year: Ano
+        many: "%{count} anos"
   errors:
-    format: "%{attribute} %{message}"
     messages:
-      accepted: deve ser aceito
-      blank: não pode ficar em branco
-      confirmation: não é igual a %{attribute}
-      empty: não pode ficar vazio
-      equal_to: deve ser igual a %{count}
-      even: deve ser par
-      exclusion: não está disponível
-      greater_than: deve ser maior que %{count}
-      greater_than_or_equal_to: deve ser maior ou igual a %{count}
-      inclusion: não está incluído na lista
-      invalid: não é válido
-      less_than: deve ser menor que %{count}
-      less_than_or_equal_to: deve ser menor ou igual a %{count}
-      model_invalid: 'A validação falhou: %{errors}'
-      not_a_number: não é um número
-      not_an_integer: não é um número inteiro
-      odd: deve ser ímpar
-      other_than: deve ser diferente de %{count}
-      present: deve ficar em branco
-      required: é obrigatório(a)
-      taken: já está em uso
+      other_than: precisa ser diferente de %{count}
       too_long:
-        one: 'é muito longo (máximo: %{count} caracter)'
-        other: 'é muito longo (máximo: %{count} caracteres)'
+        one: é longo demais (o máximo é %{count} caractere)
+        other: é longo demais (o máximo é %{count} caracteres)
+        many: é longo demais (o máximo é %{count} caracteres)
       too_short:
-        one: 'é muito curto (mínimo: %{count} caracter)'
-        other: 'é muito curto (mínimo: %{count} caracteres)'
+        one: é curto demais (o máximo é %{count} caractere)
+        other: é curto demais (o máximo é %{count} caracteres)
+        many: é curto demais (o máximo é %{count} caracteres)
       wrong_length:
-        one: não possui o tamanho esperado (%{count} caracter)
-        other: não possui o tamanho esperado (%{count} caracteres)
+        one: tem comprimento incorreto (deveria ser %{count} caractere)
+        other: tem comprimento incorreto (deveria ser %{count} caracteres)
+        many: tem comprimento incorreto (deveria ser %{count} caracteres)
     template:
-      body: 'Por favor, verifique o(s) seguinte(s) campo(s):'
       header:
-        one: 'Não foi possível gravar %{model}: %{count} erro'
-        other: 'Não foi possível gravar %{model}: %{count} erros'
-  helpers:
-    select:
-      prompt: Por favor selecione
-    submit:
-      create: Criar %{model}
-      submit: Salvar %{model}
-      update: Atualizar %{model}
-  number:
-    currency:
-      format:
-        delimiter: "."
-        format: "%u %n"
-        precision: 2
-        separator: ","
-        significant: false
-        strip_insignificant_zeros: false
-        unit: R$
-    format:
-      delimiter: "."
-      precision: 3
-      separator: ","
-      significant: false
-      strip_insignificant_zeros: false
-    human:
-      decimal_units:
-        format: "%n %u"
-        units:
-          billion:
-            one: bilhão
-            other: bilhões
-          million:
-            one: milhão
-            other: milhões
-          quadrillion:
-            one: quatrilhão
-            other: quatrilhões
-          thousand: mil
-          trillion:
-            one: trilhão
-            other: trilhões
-          unit: ''
-      format:
-        delimiter: ''
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
-      storage_units:
-        format: "%n %u"
-        units:
-          byte:
-            one: Byte
-            other: Bytes
-          eb: EB
-          gb: GB
-          kb: KB
-          mb: MB
-          pb: PB
-          tb: TB
-    percentage:
-      format:
-        delimiter: "."
-        format: "%n%"
-    precision:
-      format:
-        delimiter: "."
-  support:
-    array:
-      last_word_connector: " e "
-      two_words_connector: " e "
-      words_connector: ", "
-  time:
-    am: ''
-    formats:
-      default: "%a, %d de %B de %Y, %H:%M:%S %z"
-      long: "%d de %B de %Y, %H:%M"
-      short: "%d de %B, %H:%M"
-    pm: ''
+        one: "%{count} erro impediu que esse %{model} fosse salvo"
+        other: "%{count} erros impediram que esse %{model} fosse salvo"
+        many: "%{count} erros impediram que esse %{model} fosse salvo"
