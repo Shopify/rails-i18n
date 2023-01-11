@@ -55,13 +55,13 @@ it:
     messages:
       other_than: deve essere diverso da %{count}
       too_long:
-        one: è troppo lungo (il massimo è di %{count} carattere)
-        other: è troppo lungo (il massimo è di %{count} caratteri)
-        many: è troppo lungo (il massimo è di %{count} caratteri)
+        one: è troppo lungo (il massimo è %{count} carattere)
+        other: è troppo lungo (il massimo è %{count} caratteri)
+        many: è troppo lungo (il massimo è %{count} caratteri)
       too_short:
-        one: è troppo corto (il minimo è di %{count} carattere)
-        other: è troppo corto (il minimo è di %{count} caratteri)
-        many: è troppo corto (il minimo è di %{count} caratteri)
+        one: è troppo corto (il minimo è %{count} carattere)
+        other: è troppo corto (il minimo è %{count} caratteri)
+        many: è troppo corto (il minimo è %{count} caratteri)
       wrong_length:
         one: è della lunghezza sbagliata (dovrebbe essere %{count} carattere)
         other: è della lunghezza sbagliata (dovrebbe essere %{count} caratteri)

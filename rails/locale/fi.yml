@@ -19,7 +19,7 @@ fi:
         one: alle %{count} sekunti
         other: alle %{count} sekuntia
       less_than_x_minutes:
-        one: alle %{count} minuuttia
+        one: alle %{count} minuutti
         other: alle %{count} minuuttia
       over_x_years:
         one: yli %{count} vuosi
@@ -53,5 +53,5 @@ fi:
       other_than: on oltava muu kuin %{count}
     template:
       header:
-        one: "%{count} virhe esti tämän mallin %{model} tallentamisen"
+        one: "%{count} virhe estivät tämän mallin %{model} tallentamisen"
         other: "%{count} virhettä estivät tämän mallin %{model} tallentamisen"
