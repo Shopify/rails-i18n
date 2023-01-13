@@ -4,65 +4,65 @@ ru:
     distance_in_words:
       about_x_hours:
         one: приблизительно %{count} час
-        few: приблизительно %{count} ч
-        many: приблизительно %{count} ч
-        other: приблизительно %{count} ч
+        few: приблизительно %{count} часа
+        many: приблизительно %{count} часов
+        other: приблизительно %{count} часов
       about_x_months:
         one: приблизительно %{count} месяц
-        few: приблизительно %{count} мес.
-        many: приблизительно %{count} мес.
-        other: приблизительно %{count} мес.
+        few: приблизительно %{count} месяца
+        many: приблизительно %{count} месяцев
+        other: приблизительно %{count} месяцев
       about_x_years:
         one: приблизительно %{count} год
-        few: приблизительно %{count} г.
-        many: приблизительно %{count} г.
-        other: приблизительно %{count} г.
+        few: приблизительно %{count} года
+        many: приблизительно %{count} лет
+        other: приблизительно %{count} лет
       almost_x_years:
         one: почти %{count} год
-        few: почти %{count} г.
-        many: почти %{count} г.
-        other: почти %{count} г.
+        few: почти %{count} года
+        many: почти %{count} лет
+        other: почти %{count} лет
       half_a_minute: полминуты
       less_than_x_seconds:
         one: менее %{count} секунды
-        few: менее %{count} сек
-        many: менее %{count} сек
-        other: менее %{count} сек
+        few: менее %{count} секунд
+        many: менее %{count} секунд
+        other: менее %{count} секунд
       less_than_x_minutes:
-        one: менее %{count} мин.
-        few: менее %{count} мин
-        many: менее %{count} мин
-        other: менее %{count} мин
+        one: менее %{count} минуты
+        few: менее %{count} минут
+        many: менее %{count} минут
+        other: менее %{count} минут
       over_x_years:
         one: больше %{count} года
-        few: больше %{count} г.
-        many: больше %{count} г.
-        other: больше %{count} г.
+        few: больше %{count} лет
+        many: больше %{count} лет
+        other: больше %{count} лет
       x_seconds:
         one: "%{count} секунда"
-        few: "%{count} сек"
-        many: "%{count} сек"
-        other: "%{count} сек"
+        few: "%{count} секунды"
+        many: "%{count} секунд"
+        other: "%{count} секунд"
       x_minutes:
         one: "%{count} минута"
-        few: "%{count} мин"
-        many: "%{count} мин"
-        other: "%{count} мин"
+        few: "%{count} минуты"
+        many: "%{count} минут"
+        other: "%{count} минут"
       x_days:
         one: "%{count} день"
-        few: "%{count} дн."
-        many: "%{count} дн."
-        other: "%{count} дн."
+        few: "%{count} дня"
+        many: "%{count} дней"
+        other: "%{count} дней"
       x_months:
         one: "%{count} месяц"
-        few: "%{count} мес."
-        many: "%{count} мес."
-        other: "%{count} мес."
+        few: "%{count} месяца"
+        many: "%{count} месяцев"
+        other: "%{count} месяцев"
       x_years:
         one: "%{count} год"
-        few: "%{count} г."
-        many: "%{count} г."
-        other: "%{count} г."
+        few: "%{count} года"
+        many: "%{count} лет"
+        other: "%{count} лет"
   errors:
     messages:
       other_than: должен отличаться от %{count}
@@ -78,12 +78,12 @@ ru:
         other: содержит слишком мало символов (должен составлять не менее %{count})
       wrong_length:
         one: имеет неправильную длину (должен составлять %{count} символ)
-        few: имеет неправильную длину (должен составлять %{count} симв.)
-        many: имеет неправильную длину (должен составлять %{count} симв.)
-        other: имеет неправильную длину (должен составлять %{count} симв.)
+        few: имеет неправильную длину (должен составлять %{count} символа)
+        many: имеет неправильную длину (должен составлять %{count} символов)
+        other: имеет неправильную длину (должен составлять %{count} символов)
     template:
       header:
-        one: Из-за ошибок (%{count}) не удалось сохранить %{model}
-        few: Из-за ошибок (%{count}) не удалось сохранить %{model}
-        many: Из-за ошибок (%{count}) не удалось сохранить %{model}
-        other: Из-за ошибок (%{count}) не удалось сохранить %{model}
+        one: Из-за %{count} ошибки не удалось сохранить %{model}
+        few: Из-за %{count} ошибок не удалось сохранить %{model}
+        many: Из-за %{count} ошибок не удалось сохранить %{model}
+        other: Из-за %{count} ошибок не удалось сохранить %{model}

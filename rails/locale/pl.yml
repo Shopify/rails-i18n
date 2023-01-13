@@ -3,87 +3,87 @@ pl:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: ok. %{count} godziny
-        few: ok. %{count} godzin
+        one: ok. %{count} godz.
+        few: ok. %{count} godziny
         many: ok. %{count} godzin
-        other: ok. %{count} godzin
+        other: ok. %{count} godziny
       about_x_months:
-        one: ok. %{count} miesiąca
+        one: ok. %{count} miesiąc
         few: ok. %{count} miesięcy
         many: ok. %{count} miesięcy
-        other: ok. %{count} miesięcy
+        other: ok. %{count} miesiąca
       about_x_years:
-        one: ok. %{count} roku
+        one: ok. %{count} rok
         few: ok. %{count} lat
         many: ok. %{count} lat
-        other: ok. %{count} lat
+        other: ok. %{count} roku
       almost_x_years:
         one: prawie %{count} rok
-        few: prawie %{count} lat(a)
-        many: prawie %{count} lat(a)
-        other: prawie %{count} lat(a)
+        few: prawie %{count} lata
+        many: prawie %{count} lat
+        other: prawie %{count} roku
       half_a_minute: pół minuty
       less_than_x_seconds:
         one: mniej niż %{count} sekunda
-        few: mniej niż %{count} sekund(y)
-        many: mniej niż %{count} sekund(y)
-        other: mniej niż %{count} sekund(y)
+        few: mniej niż %{count} sekundy
+        many: mniej niż %{count} sekund
+        other: mniej niż %{count} sekundy
       less_than_x_minutes:
-        one: mniej niż %{count} min.
-        few: mniej niż %{count} minut(y)
-        many: mniej niż %{count} minut(y)
-        other: mniej niż %{count} minut(y)
+        one: mniej niż %{count} minuta
+        few: mniej niż %{count} minuty
+        many: mniej niż %{count} minut
+        other: mniej niż %{count} minuty
       over_x_years:
         one: ponad %{count} rok
-        few: ponad %{count} lat(a)
-        many: ponad %{count} lat(a)
-        other: ponad %{count} lat(a)
+        few: ponad %{count} lata
+        many: ponad %{count} lat
+        other: ponad %{count} roku
       x_seconds:
         one: "%{count} sekunda"
-        few: "%{count} sekund(y)"
-        many: "%{count} sekund(y)"
-        other: "%{count} sekund(y)"
+        few: "%{count} sekundy"
+        many: "%{count} sekund"
+        other: "%{count} sekundy"
       x_minutes:
         one: "%{count} minuta"
-        few: "%{count} minut(y)"
-        many: "%{count} minut(y)"
-        other: "%{count} minut(y)"
+        few: "%{count} minuty"
+        many: "%{count} minut"
+        other: "%{count} minuty"
       x_days:
         one: "%{count} dzień"
         few: "%{count} dni"
         many: "%{count} dni"
-        other: "%{count} dni"
+        other: "%{count} dnia"
       x_months:
         one: "%{count} miesiąc"
-        few: "%{count} miesiące(-ęcy)"
-        many: "%{count} miesiące(-ęcy)"
-        other: "%{count} miesiące(-ęcy)"
+        few: "%{count} miesiące"
+        many: "%{count} miesięcy"
+        other: "%{count} miesiąca"
       x_years:
         one: "%{count} rok"
-        other: "%{count} lat(a)"
-        few: "%{count} lat(a)"
-        many: "%{count} lat(a)"
+        other: "%{count} roku"
+        few: "%{count} lata"
+        many: "%{count} lat"
   errors:
     messages:
       other_than: musi być inna niż %{count}
       too_long:
         one: jest za długa (maksymalnie %{count} znak)
-        few: jest za długa (maksymalnie %{count} znaki(-ów))
-        many: jest za długa (maksymalnie %{count} znaki(-ów))
-        other: jest za długa (maksymalnie %{count} znaki(-ów))
+        few: jest za długa (maksymalnie %{count} znaki)
+        many: jest za długa (maksymalnie %{count} znaków)
+        other: jest za długa (maksymalnie %{count} znaku)
       too_short:
-        one: jest za krótka (maksymalnie %{count} znak)
-        few: jest za krótka (minimalnie %{count} znaki(-ów))
-        many: jest za krótka (minimalnie %{count} znaki(-ów))
-        other: jest za krótka (minimalnie %{count} znaki(-ów))
+        one: jest za krótka (minimalnie %{count} znak)
+        few: jest za krótka (minimalnie %{count} znaki)
+        many: jest za krótka (minimalnie %{count} znaków
+        other: jest za krótka (minimalnie %{count} znaku)
       wrong_length:
         one: ma nieprawidłową długość (musi mieć %{count} znak)
-        few: ma nieprawidłową długość (musi mieć %{count} znaki(-ów))
-        many: ma nieprawidłową długość (musi mieć %{count} znaki(-ów))
-        other: ma nieprawidłową długość (musi mieć %{count} znaki(-ów))
+        few: ma nieprawidłową długość (musi mieć %{count} znaki)
+        many: ma nieprawidłową długość (musi mieć %{count} znaków)
+        other: ma nieprawidłową długość (musi mieć %{count} znaku)
     template:
       header:
         one: 'Z powodu %{count} błędu zapisanie tego modelu: %{model} było niemożliwe'
         few: 'Z powodu %{count} błędów zapisanie tego modelu: %{model} było niemożliwe'
         many: 'Z powodu %{count} błędów zapisanie tego modelu: %{model} było niemożliwe'
-        other: 'Z powodu %{count} błędów zapisanie tego modelu: %{model} było niemożliwe'
+        other: 'Z powodu %{count} błędu zapisanie tego modelu: %{model} było niemożliwe'

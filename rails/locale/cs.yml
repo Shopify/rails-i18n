@@ -9,19 +9,19 @@ cs:
         many: asi %{count} h
       about_x_months:
         one: asi %{count} měsíc
-        few: asi %{count} měs.
-        other: asi %{count} měs.
-        many: asi %{count} měs.
+        few: asi %{count} měsíce
+        other: asi %{count} měsíců
+        many: asi %{count} měsíců
       about_x_years:
         one: asi %{count} rok
-        few: asi %{count} r.
-        other: asi %{count} r.
-        many: asi %{count} r.
+        few: asi %{count} roky
+        other: asi %{count} roků
+        many: asi %{count} roků
       almost_x_years:
         one: téměř %{count} rok
-        few: téměř %{count} r.
-        other: téměř %{count} r.
-        many: téměř %{count} r.
+        few: téměř %{count} roky
+        other: téměř %{count} roků
+        many: téměř %{count} roků
       half_a_minute: půl minuty
       less_than_x_seconds:
         one: méně než %{count} s
@@ -35,9 +35,9 @@ cs:
         many: méně než %{count} min
       over_x_years:
         one: více než %{count} rok
-        few: více než %{count} r.
-        other: více než %{count} r.
-        many: více než %{count} r.
+        few: více než %{count} roky
+        other: více než %{count} roků
+        many: více než %{count} roků
       x_seconds:
         one: "%{count} s"
         few: "%{count} s"
@@ -49,20 +49,20 @@ cs:
         other: "%{count} min"
         many: "%{count} min"
       x_days:
-        one: "%{count} d."
-        few: "%{count} d."
-        other: "%{count} d."
-        many: "%{count} d."
+        one: "%{count} den"
+        few: "%{count} dny"
+        other: "%{count} dnů"
+        many: "%{count} dnů"
       x_months:
-        one: "%{count} měs."
-        few: "%{count} měs."
-        other: "%{count} měs."
-        many: "%{count} měs."
+        one: "%{count} měsíc"
+        few: "%{count} měsíce"
+        other: "%{count} měsíců"
+        many: "%{count} měsíců"
       x_years:
-        one: "%{count} r."
-        other: "%{count} r."
-        few: "%{count} r."
-        many: "%{count} r."
+        one: "%{count} rok"
+        other: "%{count} roků"
+        few: "%{count} roky"
+        many: "%{count} roků"
   errors:
     messages:
       other_than: musí představovat jinou hodnotu než %{count}
@@ -84,6 +84,6 @@ cs:
     template:
       header:
         one: Uložení modelu %{model} znemožnila %{count} chyba
-        few: 'Uložení modelu %{model} znemožnil tento počet chyb: %{count}'
-        other: 'Uložení modelu %{model} znemožnil tento počet chyb: %{count}'
-        many: 'Uložení modelu %{model} znemožnil tento počet chyb: %{count}'
+        few: Uložení modelu %{model} znemožnily %{count} chyby
+        other: Uložení modelu %{model} znemožnilo %{count} chyb
+        many: Uložení modelu %{model} znemožnilo %{count} chyb
