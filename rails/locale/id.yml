@@ -47,7 +47,7 @@ id:
         other: terlalu panjang (maksimum %{count} karakter)
       too_short:
         one: terlalu pendek (minimum %{count} karakter)
-        other: terlalu pendek (minimum %{count} karakter)
+        other: terlalu pendek (minimal %{count} karakter)
       wrong_length:
         one: adalah panjang karakter yang salah (seharusnya %{count} karakter)
         other: adalah panjang karakter yang salah (seharusnya %{count} karakter)
