@@ -6,8 +6,8 @@ nl:
         one: ongeveer %{count} uur
         other: ongeveer %{count} uur
       about_x_months:
-        one: about %{count} maand
-        other: about %{count} maanden
+        one: ongeveer %{count} maand
+        other: ongeveer %{count} maanden
       about_x_years:
         one: ongeveer %{count} jaar
         other: ongeveer %{count} jaar
@@ -46,11 +46,11 @@ nl:
         one: is te lang (maximum is %{count} teken)
         other: is te lang (maximum is %{count} tekens)
       too_short:
-        one: is te kort (minimum is %{count} tekens)
+        one: is te kort (minimum is %{count} teken)
         other: is te kort (minimum is %{count} tekens)
       wrong_length:
-        one: heeft de verkeerde lengte (mag alleen %{count} teken zijn)
-        other: heeft de verkeerde lengte (mag alleen %{count} tekens zijn)
+        one: heeft de verkeerde lengte (mag maar %{count} teken zijn)
+        other: heeft de verkeerde lengte (mag maar %{count} tekens zijn)
     template:
       header:
         one: "%{count} fout voorkwam dat dit %{model} kon worden opgeslagen"
